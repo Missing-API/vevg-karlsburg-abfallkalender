@@ -9,10 +9,10 @@
   ],
   "version": "2.1.7",
   "license": "MIT",
-  "repository": "github:schafevormfenster/vevg-karlsburg-abfallkalender",
-  "homepage": "https://github.com/schafevormfenster/vevg-karlsburg-abfallkalender",
+  "repository": "github:Missing-API/vevg-karlsburg-abfallkalender",
+  "homepage": "https://github.com/Missing-API/vevg-karlsburg-abfallkalender",
   "bugs": {
-    "url": "https://github.com/schafevormfenster/vevg-karlsburg-abfallkalender/issues"
+    "url": "https://github.com/Missing-API/vevg-karlsburg-abfallkalender/issues"
   },
   "contributors": [
     {
@@ -28,17 +28,17 @@
     "lint": "next lint"
   },
   "engines": {
-    "node": "20.x"
+    "node": "22.x"
   },
   "dependencies": {
     "@schafevormfenster/data-text-mapper": "^0.1.0",
     "cache-manager": "^4.1.0",
     "cache-manager-mongoose": "^1.0.1",
-    "mongoose": "^6.5.4",
     "cheerio": "^1.0.0-rc.12",
     "ics": "^2.27.0",
     "isomorphic-fetch": "^3.0.0",
     "lodash": "^4.17.21",
+    "mongoose": "^6.5.4",
     "next": "^14.0.4",
     "node-ical": "^0.17.2",
     "react": "^18.2.0",
@@ -47,7 +47,7 @@
     "underscore": "^1.12.1"
   },
   "devDependencies": {
-    "@types/node": "^20.10.8",
+    "@types/node": "^22.0.0",
     "@types/react": "^18.2.47",
     "eslint": "^8.56.0",
     "eslint-config-next": "^14.0.4",
