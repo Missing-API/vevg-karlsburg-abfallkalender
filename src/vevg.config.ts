@@ -176,6 +176,12 @@ export const vevgCommunityOverwrite: VevgCommunityOverwrite[] = [
     locationQualifier: "Heringsdorf",
   },
   {
+    name: "Buchholz",
+    regionIdentifier: "JTPL",
+    districtIdentifier: "L",
+    locationQualifier: "Alt Tellin",
+  },
+  {
     name: "Görke",
     regionIdentifier: "OVP",
     districtIdentifier: "A",
