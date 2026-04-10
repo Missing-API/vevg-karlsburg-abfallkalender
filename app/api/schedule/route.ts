@@ -21,7 +21,7 @@ export async function GET() {
         village: vevgCommunity.id || 0,
         districtIdentifier: vevgCommunity.districtIdentifier || "",
       };
-    }
+    },
   );
 
   const allEvents: VevgProperIcsEvent[] =
