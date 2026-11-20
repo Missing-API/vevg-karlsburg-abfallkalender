@@ -42,6 +42,7 @@ export const qualifyEvent = (
 
   const descriptionData: TextWithData = {
     description: rawIcsEvent.summary,
+    categories: ["Entsorgung"],
     scopes: [matchingWasteTypeDescription.scope || "Ort"],
     tags: matchingWasteTypeDescription.tags || ["Entsorgung"],
     url: detailLink.toString(),
