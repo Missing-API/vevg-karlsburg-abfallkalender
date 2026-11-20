@@ -52,7 +52,7 @@
     "@types/react": "^19.3.0",
     "eslint": "^10.15.0",
     "eslint-config-next": "^16.4.6",
-    "typescript": "^5.3.3"
+    "typescript": "^6.0.3"
   },
   "pnpm": {
     "peerDependencyRules": {
