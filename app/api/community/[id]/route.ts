@@ -5,9 +5,9 @@ export const maxDuration = 30;
 
 export async function GET(
   request: Request,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
-  const vevgCommunityId: string = params.id as string;
+  const vevgCommunityId: string = (await params).id as string;
 
   const vevgCommunity: VevgCommunity | undefined | null =
     await getCommunityById(parseInt(vevgCommunityId));
