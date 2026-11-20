@@ -32,8 +32,8 @@ This API proxy is a [Next.js](https://nextjs.org/) project.
 
 ```bash
 git clone https://github.com/schafevormfenster/vevg-karlsburg-abfallkalender.git
-yarn
-yarn dev
+pnpm install
+pnpm dev
 ```
 
 Open the api proxy locally:
