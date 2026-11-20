@@ -32,7 +32,7 @@
     "node": "26.x"
   },
   "dependencies": {
-    "@schafevormfenster/data-text-mapper": "^0.1.0",
+    "@schafevormfenster/data-text-mapper": "^0.2.3",
     "cache-manager": "^4.1.0",
     "cache-manager-mongoose": "^1.0.1",
     "cheerio": "^1.0.0-rc.12",
@@ -41,7 +41,7 @@
     "lodash": "^4.17.21",
     "mongoose": "^9.12.3",
     "next": "^16.4.6",
-    "node-ical": "^0.17.2",
+    "node-ical": "^0.27.6",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "slugify": "^1.6.6",
